@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/AdarshP521/SQL-LC/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0607-sales-person](https://github.com/AdarshP521/SQL-LC/tree/master/0607-sales-person) |
 | [0608-tree-node](https://github.com/AdarshP521/SQL-LC/tree/master/0608-tree-node) |
+| [0627-swap-sex-of-employees](https://github.com/AdarshP521/SQL-LC/tree/master/0627-swap-sex-of-employees) |
 | [1158-market-analysis-i](https://github.com/AdarshP521/SQL-LC/tree/master/1158-market-analysis-i) |
 ## Array
 |  |
