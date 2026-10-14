@@ -12,4 +12,32 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0184-department-highest-salary](https://github.com/AdarshP521/SQL-LC/tree/master/0184-department-highest-salary) |
 | [0608-tree-node](https://github.com/AdarshP521/SQL-LC/tree/master/0608-tree-node) |
 | [1158-market-analysis-i](https://github.com/AdarshP521/SQL-LC/tree/master/1158-market-analysis-i) |
+## Array
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Depth-First Search
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Graph Theory
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Topological Sort
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Kosaraju's Algorithm
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Tarjan's SCC Algorithm
+|  |
+| ------- |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
