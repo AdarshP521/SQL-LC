@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0608-tree-node](https://github.com/AdarshP521/SQL-LC/tree/master/0608-tree-node) |
 | [0627-swap-sex-of-employees](https://github.com/AdarshP521/SQL-LC/tree/master/0627-swap-sex-of-employees) |
 | [1158-market-analysis-i](https://github.com/AdarshP521/SQL-LC/tree/master/1158-market-analysis-i) |
+| [1393-capital-gainloss](https://github.com/AdarshP521/SQL-LC/tree/master/1393-capital-gainloss) |
 ## Array
 |  |
 | ------- |
