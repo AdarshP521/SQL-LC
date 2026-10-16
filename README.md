@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/AdarshP521/SQL-LC/tree/master/1050-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1084-sales-analysis-iii](https://github.com/AdarshP521/SQL-LC/tree/master/1084-sales-analysis-iii) |
 | [1158-market-analysis-i](https://github.com/AdarshP521/SQL-LC/tree/master/1158-market-analysis-i) |
+| [1179-reformat-department-table](https://github.com/AdarshP521/SQL-LC/tree/master/1179-reformat-department-table) |
 | [1393-capital-gainloss](https://github.com/AdarshP521/SQL-LC/tree/master/1393-capital-gainloss) |
 | [1407-top-travellers](https://github.com/AdarshP521/SQL-LC/tree/master/1407-top-travellers) |
 | [1693-daily-leads-and-partners](https://github.com/AdarshP521/SQL-LC/tree/master/1693-daily-leads-and-partners) |
