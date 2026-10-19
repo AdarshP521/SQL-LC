@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3421-find-students-who-improved](https://github.com/AdarshP521/SQL-LC/tree/master/3421-find-students-who-improved) |
 | [3451-find-invalid-ip-addresses](https://github.com/AdarshP521/SQL-LC/tree/master/3451-find-invalid-ip-addresses) |
 | [3475-dna-pattern-recognition](https://github.com/AdarshP521/SQL-LC/tree/master/3475-dna-pattern-recognition) |
+| [3482-analyze-organization-hierarchy](https://github.com/AdarshP521/SQL-LC/tree/master/3482-analyze-organization-hierarchy) |
 ## Array
 |  |
 | ------- |
