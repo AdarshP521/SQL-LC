@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/AdarshP521/SQL-LC/tree/master/0001-two-sum) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 ## Dynamic Programming
 |  |
@@ -62,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/AdarshP521/SQL-LC/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
