@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3421-find-students-who-improved](https://github.com/AdarshP521/SQL-LC/tree/master/3421-find-students-who-improved) |
 | [3436-find-valid-emails](https://github.com/AdarshP521/SQL-LC/tree/master/3436-find-valid-emails) |
 | [3451-find-invalid-ip-addresses](https://github.com/AdarshP521/SQL-LC/tree/master/3451-find-invalid-ip-addresses) |
+| [3465-find-products-with-valid-serial-numbers](https://github.com/AdarshP521/SQL-LC/tree/master/3465-find-products-with-valid-serial-numbers) |
 | [3475-dna-pattern-recognition](https://github.com/AdarshP521/SQL-LC/tree/master/3475-dna-pattern-recognition) |
 | [3482-analyze-organization-hierarchy](https://github.com/AdarshP521/SQL-LC/tree/master/3482-analyze-organization-hierarchy) |
 | [3497-analyze-subscription-conversion](https://github.com/AdarshP521/SQL-LC/tree/master/3497-analyze-subscription-conversion) |
