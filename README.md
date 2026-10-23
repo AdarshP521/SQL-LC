@@ -49,11 +49,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/AdarshP521/SQL-LC/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AdarshP521/SQL-LC/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AdarshP521/SQL-LC/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AdarshP521/SQL-LC/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AdarshP521/SQL-LC/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/AdarshP521/SQL-LC/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 ## Depth-First Search
 |  |
@@ -79,4 +81,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AdarshP521/SQL-LC/tree/master/0001-two-sum) |
+## Greedy
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AdarshP521/SQL-LC/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 <!---LeetCode Topics End-->
