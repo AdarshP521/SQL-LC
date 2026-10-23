@@ -3,14 +3,11 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-    let minPrice = prices[0],
-    profit = 0;
+    let = max = 0,
+    min = prices[0]
     prices.forEach((e) => {
-        if (e < minPrice) {
-            minPrice = e;
-        } else if (e - minPrice > profit) {
-            profit = e - minPrice;
-        }
-    });
-    return profit;
+        min = Math.min(min, e)
+        max = Math.max(max, e - min)
+    })
+    return max
 };
