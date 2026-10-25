@@ -1,64 +1,40 @@
-WITH cte AS (
-    SELECT 
-        user_id,
-        event_date,
-        event_type,
-        plan_name AS current_plan,
-        monthly_amount,
-
-        MIN(event_date) OVER (
-            PARTITION BY user_id
-        ) AS min_event_date,
-
-        MAX(event_date) OVER (
-            PARTITION BY user_id
-        ) AS max_event_date,
-
-        SUM(
-            CASE 
-                WHEN event_type = 'downgrade' THEN 1 
-                ELSE 0 
-            END
-        ) OVER (
-            PARTITION BY user_id
-        ) AS is_hv_downgrade,
-
-        MAX(monthly_amount) OVER (
-            PARTITION BY user_id
-        ) AS max_historical_amount,
-
-        MAX(
-            CASE 
-                WHEN event_type = 'cancel' THEN event_date
-                ELSE NULL
-            END
-        ) OVER (
-            PARTITION BY user_id
-        ) AS max_cancel_event_date,
-
-        DATEDIFF(
-            MAX(event_date) OVER (PARTITION BY user_id),
-            MIN(event_date) OVER (PARTITION BY user_id)
-        ) AS days_as_subscriber,
-
-        ROW_NUMBER() OVER (
-            PARTITION BY user_id
-            ORDER BY event_date DESC
-        ) AS rn
-
+# Write your MySQL query statement below
+WITH ranked AS (
+    SELECT *,
+           ROW_NUMBER() OVER (
+               PARTITION BY user_id
+               ORDER BY event_date DESC, event_id DESC
+           ) AS rn
     FROM subscription_events
+),
+latest AS (
+    SELECT user_id,
+           event_type AS last_event_type,
+           plan_name AS current_plan,
+           monthly_amount AS current_monthly_amount
+    FROM ranked
+    WHERE rn = 1
+),
+history AS (
+    SELECT user_id,
+           MIN(event_date) AS start_date,
+           MAX(event_date) AS last_event_date,
+           MAX(monthly_amount) AS max_historical_amount,
+           SUM(event_type = 'downgrade') AS downgrade_count
+    FROM subscription_events
+    GROUP BY user_id
 )
-
-SELECT
-    user_id,
-    current_plan,
-    monthly_amount AS current_monthly_amount,
-    max_historical_amount,
-    days_as_subscriber
-FROM cte
-WHERE rn = 1
-  AND max_cancel_event_date IS NULL
-  AND is_hv_downgrade > 0
-  AND days_as_subscriber > 59
-  AND monthly_amount / CAST(max_historical_amount AS FLOAT) <= 0.5
-ORDER BY days_as_subscriber DESC, user_id;
+SELECT l.user_id,
+       l.current_plan,
+       l.current_monthly_amount,
+       h.max_historical_amount,
+       DATEDIFF(h.last_event_date, h.start_date) AS days_as_subscriber
+FROM latest l
+JOIN history h
+ON l.user_id = h.user_id
+WHERE l.last_event_type <> 'cancel'
+AND h.downgrade_count >= 1
+AND l.current_monthly_amount < 0.5 * h.max_historical_amount
+AND DATEDIFF(h.last_event_date, h.start_date) >= 60
+ORDER BY days_as_subscriber DESC,
+         l.user_id;
